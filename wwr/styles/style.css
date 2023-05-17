@@ -1,10 +1,19 @@
 .content {
    max-width: 1600px; 
    margin: 0 auto;
+   
 }
 body {
+
     background-color: #ffd6ba; 
     color: rgb(86, 78, 94);
+    font-family: playfair display, bitter, Arial;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 { 
+    margin: 0;
 }
 header {
     background-color:#bee3bd;
@@ -16,12 +25,20 @@ nav a:hover {
 .book{
 color: rgb(28, 115, 247);
 text-decoration: none;
+padding: 15px 30px;
+margin-top: 50px;
+border-radius: 5px;
+font-size: 18px;
 }
 .book:hover{
     color: rgb(252, 78, 179);
 }
 .join{
     color: rgb(37, 13, 253);
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-size: 18px;
 
 }
 .join:hover{
@@ -30,9 +47,12 @@ text-decoration: none;
 .msg{
    background-color: #bee3bd;
    color: rgb(15, 15, 15);
+   line-height: 1.5em;
+   padding: 35px;
 }
 footer{
    background-color:rgb(247, 246, 190);
+   padding: 25px 50px;
    
 }
 footer a:hover {
@@ -41,12 +61,18 @@ footer a:hover {
 }
 .msg p {
     color: rgb(10, 82, 39);
+    padding-bottom: 15px;
+    font-size: .8em;
 }
 .msg h2 {
     color: rgb(129, 10, 10);
 }
 .home-tittle{
-    color: rgb(212, 61, 15);
+    color: rgb(150, 72, 48);
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+
 }
 
 footer p {
@@ -80,4 +106,43 @@ nav {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+
+    #logo_link {
+        padding-top: 5px;
+    }
+    nav a {
+        padding: 35px;
+    }
+    footer .social img {
+        padding-top: 15px;
+    }
+    .river-card {
+        margin: 200px 0;
+    }
+    .camping-card {
+        margin: 200px 0;
+    }
+    .rapids-card {
+        margin: 200px 0;
+    }
+    footer {
+        margin-top: 200px;
+        padding: 25px 50px;
+    }
+.card-img {
+    border: 10px solid #130707;
+}
+main section img {
+    box-sizing: border-box;
+
+}
+.mountains {
+    margin-left: 20px;
+    margin-bottom: 200px;
+}
+#hero {
+    margin-bottom: 100px;
+    border-bottom: solid #130707;
 }
