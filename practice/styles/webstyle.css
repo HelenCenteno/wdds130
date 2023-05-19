@@ -1,0 +1,13 @@
+#gray{ 
+    background-color: rgba(14, 13, 13, 0.479);
+
+}
+.cup {
+    height: 300px;
+    border-radius: 500px;
+    border: 15px solid rgba(39, 37, 37, 0.733);
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
+
